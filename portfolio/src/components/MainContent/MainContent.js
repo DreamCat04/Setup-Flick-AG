@@ -21,6 +21,11 @@ const [images, setImages] = useState([
     { id: '1', image: IMAGES.image1 },
     { id: '2', image: IMAGES.image2 }
   ]);
+  const [indexSelected, setIndexSelected] = useState(0);
+
+  const onSelect = indexSelected => {
+    setIndexSelected(indexSelected);
+  };
     return(
         <div id="mainContent">
         <h1>Setup-Flick</h1>
@@ -49,6 +54,7 @@ const [images, setImages] = useState([
             source={item.image}
           />
         )}
+        onSnapToItem={index => onSelect(index)}
       />
     </View>
     <Pagination
