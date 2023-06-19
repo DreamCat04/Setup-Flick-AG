@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ImageCarousel from "../ImageGallery/ImageCarousel";
+import ImageCarousel from "../ImageCarousel/ImageCarousel";
 const images = [
-  'src/img/setup_broken.jpg',
-  'src/img/setup_fixed.jpg'
+  'C:/Users/thier/OneDrive/Dokumente/Daten IMS/BBW/Programmiermodul/14_ProjektMultimedia/Setup-Flick-AG/portfolio/src/img/setup_broken.jpg',
+  'C:/Users/thier/OneDrive/Dokumente/Daten IMS/BBW/Programmiermodul/14_ProjektMultimedia/Setup-Flick-AG/portfolio/src/img/setup_fixed.jpg'
   // Add more image URLs here
 ];
 function MainContent(){
@@ -10,7 +10,7 @@ function MainContent(){
         <div id="mainContent">
         <h1>Setup-Flick</h1>
         <h3>Ist Ihr PC kaputt oder funktioniert er nicht richtig? Bringen Sie ihn zu uns, wir reparieren ihn!</h3>
-        <ImageCarousel images={images} />
+        <ImageCarousel images={images}/>
         </div>
     );
 }

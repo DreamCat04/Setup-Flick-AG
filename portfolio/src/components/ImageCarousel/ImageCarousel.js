@@ -19,5 +19,4 @@ const ImageCarousel = ({ images }) => {
     </div>
   );
 };
-
 export default ImageCarousel;
