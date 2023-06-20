@@ -1,0 +1,11 @@
+#mainContentLeft{
+width: 40%;
+}
+
+#mainContentRight{
+width: 60%;
+}
+.mainContent{
+  display: grid;
+  grid-template-columns: 40%, 60%;
+}
