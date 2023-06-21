@@ -1,7 +1,7 @@
 import { Carousel } from 'react-carousel-minimal';
-import "./MainContent.css";
+import "../style/LandingPage.css";
 
-function MainContent(){
+function LandingPage(){
   const data = [
     {
       image: "https://thierry.kellyburger.com/imgSetup/setup_broken.jpg",
@@ -21,8 +21,9 @@ function MainContent(){
     fontSize: '20px',
     fontWeight: 'bold',
   }
+
   return(
-    <div className="mainContent">
+    <div className="landingPage">
       <table>
         <td>
           <h1>Setup-Flick AG</h1>
@@ -63,4 +64,4 @@ function MainContent(){
     </div>//For main div
   );
 }
-export default MainContent;
+export default LandingPage;
