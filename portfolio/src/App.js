@@ -14,11 +14,11 @@ function App() {
     <Router>
       <Navbar/>
         <Routes>
-        <Route path='/' exact component={LandingPage} />
-        <Route path='/offers' component={Offers} />
-        <Route path='/about' component={AboutMe} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/impressum' component={Impressum} />
+        <Route path='/' exact Component={LandingPage} />
+        <Route path='/offers' Component={Offers} />
+        <Route path='/about' Component={AboutMe} />
+        <Route path='/contact' Component={Contact} />
+        <Route path='/impressum' Component={Impressum} />
         </Routes>
     </Router>
   );
