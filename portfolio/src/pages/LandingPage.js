@@ -24,14 +24,14 @@ function LandingPage(){
 
   return(
     <div className="landingPage">
-      <table>
-        <td>
+      <div id='landPageContainer'>
+        <div id='leftContainer'>
           <h1>Setup-Flick AG</h1>
           <h3>Ist Ihr PC kaputt oder funktioniert er nicht richtig? Bringen Sie ihn zu uns, wir reparieren ihn!</h3>
           <p>Setup-Flick AG repariert alles in einem Computer und auch rund um den Computer. Wir beherrschen Microsoldering, 
             Reflowing von Chips und vieles mehr</p>
-        </td>
-        <td>
+        </div>
+        <div id='rightContainer'>
           <div style={{padding: "0 20px"}}>
           <Carousel
             data={data}
@@ -59,8 +59,8 @@ function LandingPage(){
             }}
           />
           </div>{/*For carousel*/}
-        </td>
-      </table>
+        </div>{/*For right side container*/}
+      </div>{/*For container*/}
     </div>//For main div
   );
 }
