@@ -50,3 +50,23 @@
   height: 2px;
   background-color: #574c4c;
 }
+
+.landingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landPageContainer {
+  display: flex;
+  width: 100%;
+  margin-left: 20px;
+}
+
+#leftContainer {
+  width: 40%;
+}
+
+#rightContainer {
+  width: 60%;
+}
