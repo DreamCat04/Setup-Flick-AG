@@ -21,3 +21,4 @@
 /portfolio/npm-debug.log*
 /portfolio/yarn-debug.log*
 /portfolio/yarn-error.log*
+*.dtmp
