@@ -1,20 +1,55 @@
+import React, {useState} from "react";
+
 function Contact(){
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log('Form was sent!');
+
+    const data = {
+        name: name,
+        email: email,
+        message: message
+    }
+
+    // Make an API call to the server-side endpoint
+    fetch('http://localhost:5000/api/send-email', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+    })
+    .then((response) => {
+        if (response.ok) {
+        console.log('Email sent successfully!');
+        // Reset the form
+        setName('');
+        setEmail('');
+        setMessage('');
+        } else {
+        console.log('Failed to send email.');
+        }
+    })
+    .catch((error) => {
+        console.log('Error occurred:', error);
+    });
+}
     return(
         <div className="App">
             <h1>Kontakt</h1>
-            <form action={submit()}>
-                <label for="name">Name</label>
-                <input name="name" required="true"></input>
-                <label for="email">E-Mail</label>
-                <input name="email" type="email" required="true"></input>
-                <label for="message">Ihre Nachricht</label>
-                <input name="message"></input>
+            <form onSubmit={handleSubmit}>
+                <label htmlFor="name">Name</label>
+                <input name="name" required={true} onChange={(e) => setName(e.target.value)}/>
+                <label htmlFor="email">E-Mail</label>
+                <input name="email" type="email" required={true} value={email} onChange={(e) => setEmail(e.target.value)}/>
+                <label htmlFor="message">Ihre Nachricht</label>
+                <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
                 <button type="submit">Absenden</button>
             </form>
         </div>
     );
-}
-function submit(){
-
 }
 export default Contact;
