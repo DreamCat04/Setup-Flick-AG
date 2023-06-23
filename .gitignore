@@ -22,3 +22,4 @@
 /portfolio/yarn-debug.log*
 /portfolio/yarn-error.log*
 *.dtmp
+*.bkp

@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-06-20T19:25:38.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="-84q4e4MXP2O_LchOkY4" version="21.5.0" type="device" pages="5">
+<mxfile host="Electron" modified="2023-06-23T11:56:29.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="IT-Atj14Fq5veRqiZ3gm" version="21.5.0" type="device" pages="5">
   <diagram name="Landing page" id="mWaqS2Y9ntpzHhFaPzYa">
-    <mxGraphModel dx="1418" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,22 +33,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iZe4E6hllt8L43N8hu4n-1" value="Angebote" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="iZe4E6hllt8L43N8hu4n-1" value="Angebote" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="445" y="40" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZe4E6hllt8L43N8hu4n-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iZe4E6hllt8L43N8hu4n-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="75" width="960" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="iZe4E6hllt8L43N8hu4n-3" value="Menü" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iZe4E6hllt8L43N8hu4n-3" value="Menü" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="75" width="960" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="iZe4E6hllt8L43N8hu4n-4" value="SETUP-FLICK AG" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iZe4E6hllt8L43N8hu4n-4" value="SETUP-FLICK AG" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="375" y="128" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iZe4E6hllt8L43N8hu4n-6" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iZe4E6hllt8L43N8hu4n-6" value="Footer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="567" width="960" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="iZe4E6hllt8L43N8hu4n-7" value="Carousel mit Leistungen, die wir anbieten, unten an Bild Text, der gezeigte Leistung beschreibt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iZe4E6hllt8L43N8hu4n-7" value="Carousel mit Leistungen, die wir anbieten, unten an Bild Text, der gezeigte Leistung beschreibt" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="175" width="210" height="100" as="geometry" />
         </mxCell>
       </root>
