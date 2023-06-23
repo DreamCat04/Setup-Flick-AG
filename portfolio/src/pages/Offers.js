@@ -22,7 +22,7 @@ function Offers(){
     return(
         <div className="App">
             <h1>Angebote</h1>
-            <p>Unsere Angebote beinhalten Reparaturen von Grakfikkarten, 
+            <p className='description'>Unsere Angebote beinhalten Reparaturen von Grakfikkarten, 
               Mainboards, Netzwerkkarten oder anderen Steckkarten und 
               diversem Zubehör wie Tastaturen, Mäuse oder Webcams. Wir 
               reparieren ausserdem auch Laptops aller Marken. Zusätzlich 

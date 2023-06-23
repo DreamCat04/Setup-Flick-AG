@@ -9,7 +9,7 @@ function LandingPage(){
     },
     {
       image: "https://thierry.kellyburger.com/imgSetup/setup_fixed.jpg",
-      caption: "..zu dem"
+      caption: "..wieder zu dem"
     }
   ];
 
@@ -43,7 +43,7 @@ function LandingPage(){
             slideNumber={false}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
-            automatic={true}
+            automatic={false}
             dots={true}
             pauseIconColor="white"
             pauseIconSize="40px"

@@ -70,3 +70,8 @@
 #rightContainer {
   width: 60%;
 }
+
+.description{
+  width: 50%;
+  padding-left: 25%;
+}

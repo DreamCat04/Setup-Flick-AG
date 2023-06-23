@@ -40,6 +40,9 @@ function Contact(){
     return(
         <div className="App">
             <h1>Kontakt</h1>
+            <p className="description">Haben Sie eine Frage zu unseren Angeboten 
+            oder möchten sie uns Feedback geben? Kontaktieren Sie uns über das 
+            untenstehende Formular!</p>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Name</label>
                 <input name="name" required={true} onChange={(e) => setName(e.target.value)}/>
