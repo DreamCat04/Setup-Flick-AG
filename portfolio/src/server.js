@@ -23,7 +23,7 @@ const {email, message} = request.body;
 console.log(email, message);
     // Define the email options
   const mailOptions = {
-    from: 'ipad@kellyburger.com',
+    from: 'kontakt@setup-flick.ch',
     to: 'thierry@kellyburger.com',
     subject: 'Test Email',
     text: `${message}. Sent from ${email}`
