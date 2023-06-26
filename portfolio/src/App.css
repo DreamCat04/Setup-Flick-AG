@@ -10,6 +10,7 @@
 .App h3{
   margin-left: 25%;
 }
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -78,8 +79,6 @@
 #rightContainer {
   width: 60%;
 }
-
-
 
 .App form input, textarea, button, label, p#formLabel{
   width: 20%;
