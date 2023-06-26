@@ -62,18 +62,20 @@
 
 .landingPage {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#landPageContainer {
+#landPageMain {
   display: flex;
   width: 100%;
-  margin-left: 20px;
+  margin-bottom: 50px;
 }
 
 #leftContainer {
   width: 40%;
+  margin-left: 50px;
 }
 
 #rightContainer {
@@ -83,4 +85,29 @@
 .App form input, textarea, button, label, p#formLabel{
   width: 20%;
   margin-left: 40%;
+}
+
+.landPageAdv{
+  width: 100%;
+  display: flex;
+  margin-bottom: 30px;
+  height: 200px;
+}
+.advLeft1{
+  width: 35%;
+  margin-left: 15%;
+}
+.advRight1{
+  width: 35%;
+}
+.advLeft2{
+  width: 35%;
+  margin-left: 15%;
+}
+.advRight2{
+  width: 35%;
+}
+
+.offerImg{
+  height: 200px;
 }
