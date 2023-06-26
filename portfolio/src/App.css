@@ -75,3 +75,11 @@
   width: 50%;
   padding-left: 25%;
 }
+
+.Impressum h1{
+  text-align: center;
+}
+.Impressum p{
+  width: 50%;
+  margin-left: 25%;
+}

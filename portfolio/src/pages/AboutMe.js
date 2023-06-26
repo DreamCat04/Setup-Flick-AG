@@ -1,7 +1,7 @@
 function AboutMe(){
     return(
-        <div>
-            <p>Über Uns</p>
+        <div className="App">
+            <h1>Über Uns</h1>
         </div>
     );
 }
