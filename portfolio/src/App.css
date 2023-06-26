@@ -2,11 +2,14 @@
   text-align: center;
 }
 
-.App p{
+.App p:not(#formLabel){
   width: 50%;
   margin-left: 25%;
 }
 
+.App h3{
+  margin-left: 25%;
+}
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -76,11 +79,9 @@
   width: 60%;
 }
 
-.App h3{
-  margin-left: 25%;
-}
 
-.App form input, textarea, button, label{
+
+.App form input, textarea, button, label, p#formLabel{
   width: 20%;
   margin-left: 40%;
 }

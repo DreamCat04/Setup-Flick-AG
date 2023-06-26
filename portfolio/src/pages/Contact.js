@@ -41,14 +41,23 @@ function Contact(){
     return(
         <div className="App">
             <h1>Kontakt</h1>
-            <p>Haben Sie eine Frage zu unseren Angeboten 
-            oder möchten sie uns Feedback geben? Kontaktieren Sie uns über das 
-            untenstehende Formular!</p>
+            <p>Haben Sie eine Frage zu unseren Angeboten, möchten Sie eine 
+                Reparaturanfrage stellen oder möchten sie uns Feedback geben?
+                Kontaktieren Sie uns über das untenstehende Formular!</p>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="name">Name</label><br/>
                 <input name="name" required={true} onChange={(e) => setName(e.target.value)}/><br/>
                 <label htmlFor="email">E-Mail</label><br/>
                 <input name="email" type="email" required={true} value={email} onChange={(e) => setEmail(e.target.value)}/><br/>
+                <p id="formLabel">Grund Ihrer Anfrage</p>
+                <label htmlFor="support">Supportanfrage</label>
+                <input type="radio" name="support" value="Support Request"></input>
+                <label htmlFor="repairRequest">Reparaturanfrage</label>
+                <input type="radio" name="repairRequest" value="Repair Request"></input>
+                <label htmlFor="support">Frage</label>
+                <input type="radio" name="question" value="Question"></input>
+                <label htmlFor="repairRequest">Feedback</label>
+                <input type="radio" name="feedback" value="Feedback"></input><br/>
                 <label htmlFor="message">Ihre Nachricht</label><br/>
                 <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/><br/>
                 <button type="submit">Absenden</button>
