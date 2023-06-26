@@ -25,6 +25,7 @@ function Contact(){
     .then((response) => {
         if (response.ok) {
         console.log('Email sent successfully!');
+        alert('Wir haben Ihre Nachricht bekommen und werden Sie so rasch wie möglich kontaktieren');
         // Reset the form
         setName('');
         setEmail('');
@@ -40,16 +41,16 @@ function Contact(){
     return(
         <div className="App">
             <h1>Kontakt</h1>
-            <p className="description">Haben Sie eine Frage zu unseren Angeboten 
+            <p>Haben Sie eine Frage zu unseren Angeboten 
             oder möchten sie uns Feedback geben? Kontaktieren Sie uns über das 
             untenstehende Formular!</p>
             <form onSubmit={handleSubmit}>
-                <label htmlFor="name">Name</label>
-                <input name="name" required={true} onChange={(e) => setName(e.target.value)}/>
-                <label htmlFor="email">E-Mail</label>
-                <input name="email" type="email" required={true} value={email} onChange={(e) => setEmail(e.target.value)}/>
-                <label htmlFor="message">Ihre Nachricht</label>
-                <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/>
+                <label htmlFor="name">Name</label><br/>
+                <input name="name" required={true} onChange={(e) => setName(e.target.value)}/><br/>
+                <label htmlFor="email">E-Mail</label><br/>
+                <input name="email" type="email" required={true} value={email} onChange={(e) => setEmail(e.target.value)}/><br/>
+                <label htmlFor="message">Ihre Nachricht</label><br/>
+                <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/><br/>
                 <button type="submit">Absenden</button>
             </form>
         </div>

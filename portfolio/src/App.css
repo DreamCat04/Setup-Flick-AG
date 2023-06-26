@@ -1,5 +1,10 @@
-.App {
+.App h1{
   text-align: center;
+}
+
+.App p{
+  width: 50%;
+  margin-left: 25%;
 }
 
 .container {
@@ -71,15 +76,11 @@
   width: 60%;
 }
 
-.description{
-  width: 50%;
-  padding-left: 25%;
+.App h3{
+  margin-left: 25%;
 }
 
-.Impressum h1{
-  text-align: center;
-}
-.Impressum p{
-  width: 50%;
-  margin-left: 25%;
+.App form input, textarea, button, label{
+  width: 20%;
+  margin-left: 40%;
 }

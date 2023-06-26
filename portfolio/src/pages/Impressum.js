@@ -1,8 +1,9 @@
 function Impressum(){
     return(
-        <div className="Impressum">
+        <div className="App">
             <h1>Impressum&Datenschutz</h1>
-            <p>Impressum:
+            <h3>Impressum</h3>
+            <p>
                 Firma: Setup-Flick AG<br/>
                 Sitz: Musterstraße 123, 8000 Zürich, Schweiz<br/>
                 E-Mail: info@setup-flick.ch<br/>
