@@ -1,5 +1,4 @@
 import { Carousel } from 'react-carousel-minimal';
-import "../style/LandingPage.css";
 
 function LandingPage(){
   const data = [
