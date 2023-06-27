@@ -99,6 +99,7 @@
   height: 200px;
   background-color: #ff4040;
 }
+
 .advLeft1{
   width: 35%;
   margin-left: 15%;
@@ -106,10 +107,12 @@
 .advRight1{
   width: 35%;
 }
+
 .advLeft2{
   width: 35%;
   margin-left: 15%;
 }
+
 .advRight2{
   width: 35%;
 }
@@ -117,6 +120,7 @@
 .offerImg{
   height: 200px;
 }
+
 .landPageAdv h3{
   text-align: center;
 }
