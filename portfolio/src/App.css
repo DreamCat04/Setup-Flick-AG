@@ -60,6 +60,10 @@
   background-color: #574c4c;
 }
 
+.nav-elements ul a:hover{
+  color: #ff4040;
+}
+
 .landingPage {
   display: flex;
   flex-direction: column;

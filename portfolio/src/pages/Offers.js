@@ -1,12 +1,39 @@
 import { Carousel } from 'react-carousel-minimal';
 const data = [//This is sample data, replace with actual images once they're edited!
     {
-      image: "https://thierry.kellyburger.com/imgSetup/setup_broken.jpg",
-      caption: "Wir machen dies.."
+      image: "https://thierry.kellyburger.com/imgSetup/PC_schrauben.png",
+      caption: "Reparatur von Computern"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/setup_fixed.jpg",
-      caption: "..zu dem"
+      image: "https://thierry.kellyburger.com/imgSetup/Grafikkarte_von_oben.png",
+      caption: "Reparatur von Einzelteilen"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen.png",
+      caption: "Aufrüsten von Computern"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.png",
+      caption: "Reparatur von Laptops"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.png",
+      caption: "Reparatur von Laptops"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_front_view.png",
+      caption: "Reparatur von Tablets"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/Setup_kaputt_bearbeitet.png",
+      caption: "Reparatur von Bildschirmen und Zubehör"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/USB_Karte_löten.png"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/Lüfter_hämmern.png",
+      caption: "Sodass Sie das nicht machen müssen"
     }
   ];
 
