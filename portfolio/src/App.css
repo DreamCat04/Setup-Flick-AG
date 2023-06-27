@@ -23,8 +23,8 @@
 
 .navbar {
   height: 60px;
-  background-color: #fef7e5;
-  position: relative;
+  background-color: #5050ff;
+  /*position: relative;*/
 }
 
 .nav-elements ul {
@@ -40,12 +40,12 @@
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 400;
-  color: #2f234f;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .nav-elements ul a.active {
-  color: #574c4c;
+  color: #ff4040;
   font-weight: 500;
   position: relative;
 }
@@ -70,7 +70,8 @@
 #landPageMain {
   display: flex;
   width: 100%;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
+  background-color: aqua;
 }
 
 #leftContainer {
@@ -90,8 +91,9 @@
 .landPageAdv{
   width: 100%;
   display: flex;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   height: 200px;
+  background-color: #ff4040;
 }
 .advLeft1{
   width: 35%;
@@ -110,4 +112,7 @@
 
 .offerImg{
   height: 200px;
+}
+.landPageAdv h3{
+  text-align: center;
 }
