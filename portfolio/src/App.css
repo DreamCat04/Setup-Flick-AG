@@ -6,7 +6,6 @@
   width: 50%;
   margin-left: 25%;
 }
-
 .App h3{
   margin-left: 25%;
 }
@@ -87,8 +86,12 @@
   width: 60%;
 }
 
-.App form input, textarea, button, label, p#formLabel{
+.App form input, textarea, label, p#formLabel{
   width: 20%;
+  margin-left: 40%;
+}
+
+.App form button{
   margin-left: 40%;
 }
 
