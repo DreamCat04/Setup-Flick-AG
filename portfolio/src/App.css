@@ -75,7 +75,7 @@
   display: flex;
   width: 100%;
   padding-bottom: 50px;
-  background-color: aqua;
+  background-color: dodgerblue;
 }
 
 #leftContainer {
@@ -92,12 +92,12 @@
   margin-left: 40%;
 }
 
-.landPageAdv{
+.landPageAdv:not(#whatCanWeDo){
   width: 100%;
   display: flex;
   padding-bottom: 30px;
   height: 200px;
-  background-color: #ff4040;
+  background-color: #ff8080;
 }
 
 .advLeft1{
@@ -123,4 +123,9 @@
 
 .landPageAdv h3{
   text-align: center;
+}
+
+#whatCanWeDo{
+  background-image: linear-gradient(dodgerblue, #ff8080);
+  width: 100%;
 }

@@ -66,7 +66,7 @@ function LandingPage(){
             </div>{/*For carousel*/}
           </div>{/*For right side container*/}
       </section>
-      <section className='landPageAdv'>
+      <section id='whatCanWeDo' className='landPageAdv'>
       <h3>Was können wir für Sie tun?</h3>
       </section>
       <section className='landPageAdv'>
