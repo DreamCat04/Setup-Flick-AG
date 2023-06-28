@@ -86,12 +86,23 @@
   width: 60%;
 }
 
-.App form input, textarea, label, p#formLabel{
+.App form input[name="name"], input[name="email"], textarea, p#formLabel{
   width: 20%;
   margin-left: 40%;
+  margin-bottom: 10px;
 }
 
 .App form button{
+  margin-left: 40%;
+  margin-bottom: 10px;
+}
+
+.App form input[type="radio"]{
+  margin-right: 15%;
+  margin-bottom: 10px;
+}
+
+.App form label{
   margin-left: 40%;
 }
 

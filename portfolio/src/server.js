@@ -19,14 +19,14 @@ const transporter = nodemailer.createTransport({
   });
 
 app.post("/api/send-email", (request, response) => {
-const {email, message} = request.body;
-console.log(email, message);
+const {email, message, requestType} = request.body;
+//console.log(email, message);
     // Define the email options
   const mailOptions = {
     from: 'kontakt@setup-flick.ch',
     to: 'thierry@kellyburger.com',
     subject: 'Test Email',
-    text: `${message}. Sent from ${email}`
+    text: `Request type: ${requestType}\n Message from the Customer:\n${message}. Sent from ${email}`
   }
   
   // Send the email
