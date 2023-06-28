@@ -20,7 +20,6 @@ function LandingPage(){
     fontSize: '20px',
     fontWeight: 'bold',
   }
-
   return(
     <div className="landingPage">
       <section id='landPageMain'>
@@ -54,7 +53,7 @@ function LandingPage(){
               pauseIconSize="40px"
               slideBackgroundColor="darkgrey"
               slideImageFit="cover"
-              thumbnails={true}
+              thumbnails={false}
               thumbnailWidth="100px"
               style={{
                 textAlign: "center",
