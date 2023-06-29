@@ -4,7 +4,7 @@ function Contact(){
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-    const [requestTpye, setRequestType] = useState('');
+    const [requestType, setRequestType] = useState('');
     const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form was sent!');
@@ -13,7 +13,7 @@ function Contact(){
         name: name,
         email: email,
         message: message,
-        requestTpye: requestTpye
+        requestType: requestType
     }
 
     // Make an API call to the server-side endpoint
@@ -56,13 +56,13 @@ function Contact(){
                 <h4 className="formLabel">Grund Ihrer Anfrage</h4>
                 <div id="radioDiv">
                 <label for="support" className="radioLabel">Supportanfrage</label>
-                <input type="radio" name="support" value="Support request" checked={requestTpye === 'Support request'} onChange={(e) => setRequestType(e.target.value)}></input>
+                <input type="radio" name="support" value="Support request" checked={requestType === 'Support request'} onChange={(e) => setRequestType(e.target.value)}></input>
                 <label for="repairRequest" className="radioLabel">Reparaturanfrage</label>
-                <input type="radio" name="repairRequest" value="Repair request" checked={requestTpye === 'Repair request'} onChange={(e) => setRequestType(e.target.value)}></input>
+                <input type="radio" name="repairRequest" value="Repair request" checked={requestType === 'Repair request'} onChange={(e) => setRequestType(e.target.value)}></input>
                 <label for="question" className="radioLabel">Frage</label>
-                <input type="radio" name="question" value="Question" checked={requestTpye === 'Question'} onChange={(e) => setRequestType(e.target.value)}></input>
+                <input type="radio" name="question" value="Question" checked={requestType === 'Question'} onChange={(e) => setRequestType(e.target.value)}></input>
                 <label for="repairRequest" className="radioLabel">Feedback</label>
-                <input type="radio" name="feedback" value="Feedback" checked={requestTpye === 'Feedback'} onChange={(e) => setRequestType(e.target.value)} style={{"margin-bottom": "20px"}}></input>
+                <input type="radio" name="feedback" value="Feedback" checked={requestType === 'Feedback'} onChange={(e) => setRequestType(e.target.value)} style={{"margin-bottom": "20px"}}></input>
                 </div>
                 <label for="message" className="formLabel">Ihre Nachricht</label><br/>
                 <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/><br/>

@@ -154,5 +154,5 @@ input[name="name"], input[name="email"], textarea, .formLabel{
 }
 
 .App{
-  background-color: dodgerblue;
+  background-color: lightgray;
 }
