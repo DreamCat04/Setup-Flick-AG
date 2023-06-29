@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 function navbar() {
   return (
+    <header>
   <nav className='navbar'>
     <div className='container'>
         <div className='nav-elements'>
@@ -25,6 +26,7 @@ function navbar() {
         </div>
     </div>
   </nav>
+  </header>
   );
 }
 export default navbar;

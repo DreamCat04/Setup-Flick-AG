@@ -11,8 +11,8 @@
 }
 
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 50%;
+  margin: 0 25%;
   padding: 0 15px;
   display: flex;
   justify-content: space-between;
@@ -151,4 +151,8 @@ input[name="name"], input[name="email"], textarea, .formLabel{
 #whatCanWeDo{
   background-image: linear-gradient(dodgerblue, #ff8080);
   width: 100%;
+}
+
+.App{
+  background-image: linear-gradient(dodgerblue, #ff8080);
 }
