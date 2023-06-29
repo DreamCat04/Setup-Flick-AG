@@ -154,5 +154,5 @@ input[name="name"], input[name="email"], textarea, .formLabel{
 }
 
 .App{
-  background-image: linear-gradient(dodgerblue, #ff8080);
+  background-color: dodgerblue;
 }

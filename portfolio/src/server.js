@@ -13,14 +13,13 @@ const transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-      user: 'thierry@kellyburger.com', // Your email address
-      pass: 'tc1Erfus' // Your email password
+      user: 'thierry@kellyburger.com',
+      pass: 'tc1Erfus'
     }
   });
 
 app.post("/api/send-email", (request, response) => {
 const {email, message, requestType} = request.body;
-//console.log(email, message);
     // Define the email options
   const mailOptions = {
     from: 'kontakt@setup-flick.ch',
@@ -39,7 +38,7 @@ const {email, message, requestType} = request.body;
     }
   });
 });
-
-app.listen(5000, () => {
+//App listens to port 5000
+app.listen(port, () => {
 	console.log(`The backend successfully started on port ${port}!`);
 });
