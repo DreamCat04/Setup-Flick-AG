@@ -1,7 +1,7 @@
 import { Carousel } from 'react-carousel-minimal';
 const data = [//This is sample data, replace with actual images once they're edited!
     {
-      image: "https://thierry.kellyburger.com/imgSetup/PC_schrauben.png",
+      image: "https://thierry.kellyburger.com/imgSetup/PC_schrauben_verschwommen.png",
       caption: "Reparatur von Computern"
     },
     {
@@ -21,7 +21,7 @@ const data = [//This is sample data, replace with actual images once they're edi
       caption: "Reparatur von Laptops"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_front_view.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.png",
       caption: "Reparatur von Tablets"
     },
     {
@@ -54,7 +54,7 @@ function Offers(){
               diversem Zubehör wie Tastaturen, Mäuse oder Webcams an. Wir 
               reparieren ausserdem auch Laptops aller Marken. Zusätzlich 
               bieten wir auch Hardwarediagnosen an, falls sie nicht wissen, weshalb 
-              ihr PC streikt und führen auch Softwarediagnosen durch</p>
+              ihr PC streikt. Zudem führen auch Softwarediagnosen durch</p>
             <div style={{padding: "0 20px"}}>
           <Carousel
             data={data}
