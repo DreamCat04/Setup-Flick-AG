@@ -49,9 +49,9 @@ function Offers(){
     return(
         <div className="App">
             <h1>Angebote</h1>
-            <p>Unsere Angebote beinhalten Reparaturen von Grakfikkarten, 
+            <p>Wir bieten Reparaturen von Grakfikkarten, 
               Mainboards, Netzwerkkarten oder anderen Steckkarten und 
-              diversem Zubehör wie Tastaturen, Mäuse oder Webcams. Wir 
+              diversem Zubehör wie Tastaturen, Mäuse oder Webcams an. Wir 
               reparieren ausserdem auch Laptops aller Marken. Zusätzlich 
               bieten wir auch Hardwarediagnosen an, falls sie nicht wissen, weshalb 
               ihr PC streikt und führen auch Softwarediagnosen durch</p>
