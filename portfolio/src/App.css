@@ -126,6 +126,7 @@ input[name="name"], input[name="email"], textarea, .formLabel{
   width: 35%;
   margin-left: 15%;
 }
+
 .advRight1{
   width: 35%;
 }
@@ -148,7 +149,7 @@ input[name="name"], input[name="email"], textarea, .formLabel{
 }
 
 #whatCanWeDo{
-  background-image: linear-gradient(white, dodgerblue);
+  background-image: linear-gradient(lightgray, dodgerblue);
   width: 100%;
 }
 
@@ -156,3 +157,4 @@ input[name="name"], input[name="email"], textarea, .formLabel{
   background-color: lightgray;
   padding-top: 10px;
 }
+body{background-color: lightgray;}
