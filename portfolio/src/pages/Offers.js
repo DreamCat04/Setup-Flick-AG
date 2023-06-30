@@ -9,7 +9,7 @@ const data = [//This is sample data, replace with actual images once they're edi
       caption: "Reparatur von Einzelteilen"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen_verschwommen.png",
       caption: "Aufrüsten von Computern"
     },
     {
@@ -29,7 +29,8 @@ const data = [//This is sample data, replace with actual images once they're edi
       caption: "Reparatur von Bildschirmen und Zubehör"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/USB_Karte_löten.png"
+      image: "https://thierry.kellyburger.com/imgSetup/USB_Karte_löten.png",
+      caption: "Reparatur von PCIe Steckkarten"
     },
     {
       image: "https://thierry.kellyburger.com/imgSetup/Lüfter_hämmern.png",
