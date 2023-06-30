@@ -1,5 +1,6 @@
 .App h1{
   text-align: center;
+  background-color: lightgray;
 }
 
 .App p:not(#formLabel){
@@ -22,8 +23,7 @@
 
 .navbar {
   height: 60px;
-  background-color: #5050ff;
-  /*position: relative;*/
+  background-color: dodgerblue;
 }
 
 .nav-elements ul {
@@ -74,7 +74,6 @@
   display: flex;
   width: 100%;
   padding-bottom: 50px;
-  background-color: dodgerblue;
 }
 
 #leftContainer {
@@ -120,7 +119,7 @@ input[name="name"], input[name="email"], textarea, .formLabel{
   display: flex;
   padding-bottom: 30px;
   height: 200px;
-  background-color: #ff8080;
+  background-color: dodgerblue;
 }
 
 .advLeft1{
@@ -149,10 +148,11 @@ input[name="name"], input[name="email"], textarea, .formLabel{
 }
 
 #whatCanWeDo{
-  background-image: linear-gradient(dodgerblue, #ff8080);
+  background-image: linear-gradient(white, dodgerblue);
   width: 100%;
 }
 
 .App{
   background-color: lightgray;
+  padding-top: 10px;
 }

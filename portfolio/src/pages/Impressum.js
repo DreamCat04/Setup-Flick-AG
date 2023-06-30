@@ -1,7 +1,7 @@
 function Impressum(){
     return(
         <div className="App">
-            <h1>Impressum&Datenschutz</h1>
+            <h1>Impressum & Datenschutz</h1>
             <h3>Impressum</h3>
             <p>
                 Firma: Setup-Flick AG<br/>
@@ -13,10 +13,11 @@ function Impressum(){
 
                 Vertretungsberechtigte Personen: Daniela Beispiel<br/>
                 Vorstandsvorsitzender: Max Mustermann<br/>
-                Geschäftsführer: Thkerry Kellenberger<br/><br/>
+                Geschäftsführer: Thierry Kellenberger<br/><br/>
+                </p>
 
-                Datenschutzerklärung:<br/>
-
+                <h3>Datenschutzerklärung:</h3><br/>
+                <p>
                 1. Allgemeines<br/><br/>
 
                 Die Setup-Flick AG legt großen Wert auf den Schutz Ihrer persönlichen Daten. 
