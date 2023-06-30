@@ -18,7 +18,7 @@ const data = [//This is sample data, replace with actual images once they're edi
     },
     {
       image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.png",
-      caption: "Reparatur von Laptops"
+      caption: "Beheben von übergelaufenem Flüssigmetall"
     },
     {
       image: "https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.png",
