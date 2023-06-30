@@ -55,7 +55,7 @@ function LandingPage(){
               slideNumber={false}
               slideNumberStyle={slideNumberStyle}
               captionPosition="bottom"
-              automatic={false}
+              automatic={true}
               dots={true}
               pauseIconColor="white"
               pauseIconSize="40px"
