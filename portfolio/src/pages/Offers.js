@@ -1,5 +1,5 @@
 import { Carousel } from 'react-carousel-minimal';
-const data = [//This is sample data, replace with actual images once they're edited!
+const data = [
     {
       image: "https://thierry.kellyburger.com/imgSetup/PC_schrauben_verschwommen.png",
       caption: "Reparatur von Computern"
