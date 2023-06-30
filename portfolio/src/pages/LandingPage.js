@@ -121,7 +121,7 @@ function LandingPage(){
             bis hin zur Optimierung der Software stehen wir Ihnen zur Seite.</p>
         </div>
         <div className='advRight2'>
-          <img src='https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen.png' className='offerImg'
+          <img src='https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen_verschwommen.png' className='offerImg'
           alt='Ein Haufen von Computerteilen'></img>
         </div>
       </section>
