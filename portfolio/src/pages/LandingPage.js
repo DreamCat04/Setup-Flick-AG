@@ -3,12 +3,20 @@ import { Carousel } from 'react-carousel-minimal';
 function LandingPage(){
   const data = [
     {
-      image: "https://thierry.kellyburger.com/imgSetup/setup_broken.jpg",
+      image: "https://thierry.kellyburger.com/imgSetup/Setup_bearbeitet.png",
       caption: "Wir machen dies.."
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/setup_fixed.jpg",
-      caption: "..wieder zu dem"
+      image: "https://thierry.kellyburger.com/imgSetup/Setup_kaputt_bearbeitet.png",
+      caption: "..wieder zu dem,"
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.png",
+      caption: "das.."
+    },
+    {
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.png",
+      caption: "..wieder zu dem!"
     }
   ];
 
