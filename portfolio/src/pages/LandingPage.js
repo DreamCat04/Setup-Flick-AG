@@ -12,7 +12,7 @@ function LandingPage(){
     },
     {
       image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.png",
-      caption: "das.."
+      caption: "und auch das.."
     },
     {
       image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.png",
