@@ -35,7 +35,7 @@ function LandingPage(){
             <h1>Setup-Flick AG</h1>
             <h3>Suchen Sie nach einer schnellen und professionellen Lösung für Ihre Computerprobleme?
               Sind Sie frustriert über den defekten Drucker oder den fehlerhaften Monitor?
-              Bei Setup-Flick AG sind wir darauf spezialisiert, Ihre Computer und Computerzubehör
+              In der Setup-Flick AG sind wir darauf spezialisiert, Ihre Computer und Computerzubehör
               wieder zum Laufen zu bringen. Unser erfahrenes Team von Experten steht bereit,
               um Ihnen bei allen Arten von technischen Problemen zu helfen. Egal, ob es sich um
               Hardware- oder Softwareprobleme handelt, wir haben das Know-how und die Fähigkeiten,
