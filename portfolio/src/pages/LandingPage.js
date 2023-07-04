@@ -102,7 +102,7 @@ function LandingPage(){
       </section>
       <section className='landPageAdv'>
         <div className='advLeft1'>
-          <img src='https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_front_view.png' className='offerImg'
+          <img src='https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.png' className='offerImg'
           alt='Computersetup mit kaputten Bildschirmen'></img>
         </div>
         <div className='advRight1'>
