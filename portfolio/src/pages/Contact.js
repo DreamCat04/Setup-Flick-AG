@@ -1,6 +1,12 @@
 import React, {useState} from "react";
+import axios from "axios";
 
 function Contact(){
+    const [selectedFile, setSelectedFile] = useState();
+
+    const handleFileChange = (event) => {
+      setSelectedFile(event.target.files[0]);
+    };
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -38,7 +44,25 @@ function Contact(){
             console.log('Error occurred:', error);
             alert('An error occurred while sending the message. Error:', error);
         });
+        
     }
+    const handleUpload = () => {
+            if (selectedFile) {
+              const formData = new FormData();
+              formData.append('image', selectedFile);
+        
+              axios.post('https://thierry.kellyburger.com', formData) // Replace with your web server's URL
+                .then((response) => {
+                  // Handle successful upload
+                  alert('Upload successful:', response.data);
+                })
+                .catch((error) => {
+                  // Handle error
+                  console.error('Upload failed:', error);
+                  alert('Upload failed:', error)
+                });
+            }
+          };
     return(
         <div className="App">
             <h1>Kontakt</h1>
@@ -63,6 +87,9 @@ function Contact(){
                 </div>
                 <label for="message" className="formLabel">Ihre Nachricht</label><br/>
                 <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/><br/>
+                <label for ="upload">Laden Sie hier ein Foto Ihres Schadens hoch</label>
+                <input type="file" name="upload" onChange={handleFileChange} />
+                <button onClick={handleUpload}>Upload</button>
                 <button type="submit">Absenden</button>
             </form>
         </div>
