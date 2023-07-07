@@ -25,7 +25,7 @@ const {email, message, requestType} = request.body;
     from: 'kontakt@setup-flick.ch',
     to: 'thierry@kellyburger.com',
     subject: 'Test Email',
-    text: `Request type: ${requestType}\n Message from the Customer:\n${message}. Sent from ${email}`
+    text: `Request type: ${requestType}\n Message from the Customer:\n${message}. Sent from: ${email}`
   }
   
   // Send the email
