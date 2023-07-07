@@ -3,7 +3,6 @@ import axios from "axios";
 
 function Contact(){
     const [selectedFile, setSelectedFile] = useState();
-
     const handleFileChange = (event) => {
       setSelectedFile(event.target.files[0]);
     };
@@ -47,22 +46,22 @@ function Contact(){
         
     }
     const handleUpload = () => {
-            if (selectedFile) {
-              const formData = new FormData();
-              formData.append('image', selectedFile);
-        
-              axios.post('https://thierry.kellyburger.com', formData) // Replace with your web server's URL
-                .then((response) => {
-                  // Handle successful upload
-                  alert('Upload successful:', response.data);
-                })
-                .catch((error) => {
-                  // Handle error
-                  console.error('Upload failed:', error);
-                  alert('Upload failed:', error)
-                });
-            }
-          };
+        if (selectedFile) {
+            const formData = new FormData();
+            formData.append('image', selectedFile);
+    
+            axios.post('https://thierry.kellyburger.com', formData)
+            .then((response) => {
+                // Handle successful upload
+                alert('Upload successful:', response.data);
+            })
+            .catch((error) => {
+                // Handle error
+                console.error('Upload failed:', error);
+                alert('Upload failed:', error)
+            });
+        }
+    };
     return(
         <div className="App">
             <h1>Kontakt</h1>
@@ -76,14 +75,14 @@ function Contact(){
                 <input name="email" type="email" required={true} value={email} onChange={(e) => setEmail(e.target.value)}/>
                 <h4 className="formLabel">Grund Ihrer Anfrage</h4>
                 <div id="radioDiv">
-                <label for="support" className="radioLabel">Supportanfrage</label>
-                <input type="radio" name="support" value="Support request" checked={requestType === 'Support request'} onChange={(e) => setRequestType(e.target.value)}></input>
-                <label for="repairRequest" className="radioLabel">Reparaturanfrage</label>
-                <input type="radio" name="repairRequest" value="Repair request" checked={requestType === 'Repair request'} onChange={(e) => setRequestType(e.target.value)}></input>
-                <label for="question" className="radioLabel">Frage</label>
-                <input type="radio" name="question" value="Question" checked={requestType === 'Question'} onChange={(e) => setRequestType(e.target.value)}></input>
-                <label for="repairRequest" className="radioLabel">Feedback</label>
-                <input type="radio" name="feedback" value="Feedback" checked={requestType === 'Feedback'} onChange={(e) => setRequestType(e.target.value)} style={{"margin-bottom": "20px"}}></input>
+                    <label for="support" className="radioLabel">Supportanfrage</label>
+                    <input type="radio" name="support" value="Support request" checked={requestType === 'Support request'} onChange={(e) => setRequestType(e.target.value)}></input>
+                    <label for="repairRequest" className="radioLabel">Reparaturanfrage</label>
+                    <input type="radio" name="repairRequest" value="Repair request" checked={requestType === 'Repair request'} onChange={(e) => setRequestType(e.target.value)}></input>
+                    <label for="question" className="radioLabel">Frage</label>
+                    <input type="radio" name="question" value="Question" checked={requestType === 'Question'} onChange={(e) => setRequestType(e.target.value)}></input>
+                    <label for="repairRequest" className="radioLabel">Feedback</label>
+                    <input type="radio" name="feedback" value="Feedback" checked={requestType === 'Feedback'} onChange={(e) => setRequestType(e.target.value)} style={{"margin-bottom": "20px"}}></input>
                 </div>
                 <label for="message" className="formLabel">Ihre Nachricht</label><br/>
                 <textarea name="message" value={message} onChange={(e) => setMessage(e.target.value)}/><br/>
