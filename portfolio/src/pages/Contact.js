@@ -6,41 +6,38 @@ function Contact(){
     const [message, setMessage] = useState('');
     const [requestType, setRequestType] = useState('');
     const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form was sent!');
+        e.preventDefault();
+        console.log('Form was sent!');
 
-    const data = {
-        name: name,
-        email: email,
-        message: message,
-        requestType: requestType
-    }
-
-    // Make an API call to the server-side endpoint
-    fetch('http://localhost:5000/api/send-email', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(data)
-    })
-    .then((response) => {
-        if (response.ok) {
-        console.log('Email sent successfully!');
-        alert('Wir haben Ihre Nachricht bekommen und werden Sie so rasch wie möglich kontaktieren!');
-        // Reset the form
-        setName('');
-        setEmail('');
-        setMessage('');
-        setRequestType('');
-        } else {
-        console.log('Failed to send email.');
+        const data = {
+            name: name,
+            email: email,
+            message: message,
+            requestType: requestType
         }
-    })
-    .catch((error) => {
-        console.log('Error occurred:', error);
-        alert('An error occurred while sending the message. Error:', error);
-    });
+
+        fetch('http://localhost:5000/api/send-email', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+        }).then((response) => {
+            if (response.ok) {
+            console.log('Email sent successfully!');
+            alert('Wir haben Ihre Nachricht bekommen und werden Sie so rasch wie möglich kontaktieren!');
+            // Reset the form
+            setName('');
+            setEmail('');
+            setMessage('');
+            setRequestType('');
+            } else {
+            console.log('Failed to send email.');
+            }
+        }).catch((error) => {
+            console.log('Error occurred:', error);
+            alert('An error occurred while sending the message. Error:', error);
+        });
     }
     return(
         <div className="App">
