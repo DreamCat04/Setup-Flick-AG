@@ -2,11 +2,14 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
+const path = require('path');
+const multer = require('multer');
+const nodemailer = require('nodemailer');
 
 const port = 5000;
-const nodemailer = require('nodemailer');
 app.use(bodyParser.json({'extended' : true}));
 app.use(cors());
+app.use(cors({ origin: 'http://localhost:3000' }))
 // Create a transporter
 const transporter = nodemailer.createTransport({
     host: "asmtp.mail.hostpoint.ch",
@@ -36,6 +39,24 @@ const {email, message, requestType} = request.body;
       console.log('Email sent successfully!');
       response.sendStatus(200);
     }
+  });
+});
+
+const upload = multer({ dest: '/damageImg' }); // Destination folder for uploaded images
+
+app.post('/api/upload', upload.single('image'), (req, res) => {
+  // Access the uploaded file via req.file
+  if (!req.file) {
+    res.status(400).json({ error: 'No file uploaded' });
+    return;
+  }
+
+  // Process the file, e.g., save it to a database or disk
+  // Here, we are simply sending back the file information
+  res.json({
+    filename: req.file.filename,
+    originalname: req.file.originalname,
+    path: req.file.path,
   });
 });
 //App listens to port 5000

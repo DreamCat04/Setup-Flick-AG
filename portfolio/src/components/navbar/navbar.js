@@ -22,6 +22,9 @@ function navbar() {
                 <li>
                 <Link to="/impressum">Impressum&Datenschutz</Link>
                 </li>
+                <li>
+                <Link to="/upload">Bild hochladen</Link>
+                </li>
             </ul>
         </div>
     </div>

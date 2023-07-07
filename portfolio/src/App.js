@@ -8,6 +8,7 @@ import Offers from './pages/Offers';
 import Contact from './pages/Contact';
 import Impressum from './pages/Impressum';
 import AboutUs from './pages/AboutMe';
+import ImageUpload from './pages/ImageUpload';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/about' Component={AboutUs} />
         <Route path='/contact' Component={Contact} />
         <Route path='/impressum' Component={Impressum} />
+        <Route path='/upload' Component={ImageUpload}/>
         </Routes>
     </Router>
   );
