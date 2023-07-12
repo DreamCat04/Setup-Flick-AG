@@ -13,13 +13,11 @@ function ImageUpload() {
       const formData = new FormData();
       formData.append('image', selectedFile);
 
-      axios.post('https://thierry.kellyburger.com', formData) // Replace with your web server's URL
+      axios.post('https://thierry.kellyburger.com', formData)
         .then((response) => {
-          // Handle successful upload
           alert('Upload successful:', response.data);
         })
         .catch((error) => {
-          // Handle error
           console.error('Upload failed:', error);
           alert('Upload failed:', error)
         });
@@ -33,5 +31,4 @@ function ImageUpload() {
     </div>
   );
 }
-
 export default ImageUpload;
