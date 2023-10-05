@@ -5,4 +5,4 @@ WORKDIR /app
 
 RUN npm ci
 EXPOSE 5000
-ENTRYPOINT ["node", "server.js"]
+ENTRYPOINT ["npm", "start"]

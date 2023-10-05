@@ -4,7 +4,7 @@
   "description": "The backend for my react project",
   "main": "server.js",
   "scripts": {
-    "test": "npm run dev"
+    "start" : "node server.js"
   },
   "author": "Thierry Kellenberger",
   "license": "ISC",
