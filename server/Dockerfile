@@ -1,8 +1,6 @@
 FROM node:16.9.0-bullseye-slim
 
-COPY server.js /app/server.js
-COPY package-lock.json /app/package-lock.json
-COPY package.json /app/package.json
+COPY . /app
 WORKDIR /app
 
 RUN npm ci
