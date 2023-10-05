@@ -1,15 +1,15 @@
 const express = require('express');
 const app = express();
-const cors = require('cors');
+//const cors = require('cors');
 const bodyParser = require('body-parser');
-const path = require('path');
-const multer = require('multer');
+//const path = require('path');
+//const multer = require('multer');
 const nodemailer = require('nodemailer');
 
 const port = 5000;
 app.use(bodyParser.json({'extended' : true}));
-app.use(cors());
-app.use(cors({ origin: 'http://localhost:3000' }))
+/*app.use(cors());
+app.use(cors({ origin: 'http://localhost:3000' }))*/
 // Create a transporter
 const transporter = nodemailer.createTransport({
     host: "asmtp.mail.hostpoint.ch",
@@ -42,7 +42,7 @@ const {email, message, requestType} = request.body;
   });
 });
 
-const upload = multer({ dest: '/damageImg' }); // Destination folder for uploaded images
+/*const upload = multer({ dest: 'http://thierry.kellyburger.com/damageImg' }); // Destination folder for uploaded images
 
 app.post('/api/upload', upload.single('image'), (req, res) => {
   // Access the uploaded file via req.file
@@ -56,9 +56,9 @@ app.post('/api/upload', upload.single('image'), (req, res) => {
   res.json({
     filename: req.file.filename,
     originalname: req.file.originalname,
-    path: req.file.path,
+    path: req.file.path
   });
-});
+});*/
 //App listens to port 5000
 app.listen(port, () => {
 	console.log(`The backend successfully started on port ${port}!`);
