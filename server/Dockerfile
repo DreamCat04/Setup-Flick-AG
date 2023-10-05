@@ -1,8 +1,8 @@
 FROM node:16.9.0-bullseye-slim
 
-COPY . /app
 WORKDIR /app
-
+COPY /server/server.js /server/package.json /server/package-lock.json /app/
 RUN npm ci
+
 EXPOSE 5000
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["node", "server.js"]
