@@ -3,19 +3,19 @@ import { Carousel } from 'react-carousel-minimal';
 function LandingPage(){
   const data = [
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Setup_bearbeitet.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Setup_bearbeitet.webp",
       caption: "Wir machen dies.."
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Setup_kaputt_bearbeitet.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Setup_kaputt_bearbeitet.webp",
       caption: "..wieder zu dem,"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.png",
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.webp",
       caption: "und auch das.."
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.png",
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.webp",
       caption: "..wieder zu dem!"
     }
   ];
@@ -78,7 +78,7 @@ function LandingPage(){
       </section>
       <section className='landPageAdv'>
         <div className='advLeft1'>
-          <img src='https://thierry.kellyburger.com/imgSetup/PC_aufschrauben.png' className='offerImg'
+          <img src='https://thierry.kellyburger.com/imgSetup/PC_aufschrauben.webp' className='offerImg'
           alt='Person, die einen Computer aufschraubt'></img>
         </div>
         <div className='advRight1'>
@@ -96,13 +96,13 @@ function LandingPage(){
             Wir beheben Ihr Problem schnell, sodass Sie nicht lange auf Ihr Gerät warten müssen.</p>
         </div>
         <div className='advRight2'>
-          <img src='https://thierry.kellyburger.com/imgSetup/Grafikkarte_von_oben.png' className='offerImg'
+          <img src='https://thierry.kellyburger.com/imgSetup/Grafikkarte_von_oben.webp' className='offerImg'
           alt='Grafikkarte von oben'></img>
         </div>
       </section>
       <section className='landPageAdv'>
         <div className='advLeft1'>
-          <img src='https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.png' className='offerImg'
+          <img src='https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.webp' className='offerImg'
           alt='Computersetup mit kaputten Bildschirmen'></img>
         </div>
         <div className='advRight1'>
@@ -121,7 +121,7 @@ function LandingPage(){
             bis hin zur Optimierung der Software stehen wir Ihnen zur Seite.</p>
         </div>
         <div className='advRight2'>
-          <img src='https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen_verschwommen.png' className='offerImg'
+          <img src='https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen_verschwommen.webp' className='offerImg'
           alt='Ein Haufen von Computerteilen'></img>
         </div>
       </section>

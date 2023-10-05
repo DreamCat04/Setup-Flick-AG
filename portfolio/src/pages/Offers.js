@@ -1,39 +1,39 @@
 import { Carousel } from 'react-carousel-minimal';
 const data = [
     {
-      image: "https://thierry.kellyburger.com/imgSetup/PC_schrauben_verschwommen.png",
+      image: "https://thierry.kellyburger.com/imgSetup/PC_schrauben_verschwommen.webp",
       caption: "Reparatur von Computern"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Grafikkarte_von_oben.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Grafikkarte_von_oben.webp",
       caption: "Reparatur von Einzelteilen"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen_verschwommen.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Haufen_von_Teilen_verschwommen.webp",
       caption: "Aufrüsten von Computern"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.png",
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_GPU_Laptop.webp",
       caption: "Reparatur von Laptops"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.png",
+      image: "https://thierry.kellyburger.com/imgSetup/CPU_LM_spill.webp",
       caption: "Beheben von übergelaufenem Flüssigmetall"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Tablet_kaputt_frontview.webp",
       caption: "Reparatur von Tablets"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Setup_kaputt_bearbeitet.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Setup_kaputt_bearbeitet.webp",
       caption: "Reparatur von Bildschirmen und Zubehör"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/USB_Karte_löten.png",
+      image: "https://thierry.kellyburger.com/imgSetup/USB_Karte_löten.webp",
       caption: "Reparatur von PCIe Steckkarten"
     },
     {
-      image: "https://thierry.kellyburger.com/imgSetup/Lüfter_hämmern.png",
+      image: "https://thierry.kellyburger.com/imgSetup/Lüfter_hämmern.webp",
       caption: "Sodass Sie das nicht machen müssen"
     }
   ];
